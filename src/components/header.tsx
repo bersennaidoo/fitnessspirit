@@ -9,8 +9,8 @@ const Header = () => {
         <img
           src="/images/logo.svg"
           alt="Fitness Spirit Logo"
-          width="297"
-          height="220"
+          width="197"
+          height="120"
         />
       </Link>
     </header>
