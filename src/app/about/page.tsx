@@ -3,55 +3,108 @@ import React from "react";
 function AboutPage() {
   return (
     <>
-    <div id="weights">
-      <h1>Weights</h1>
-      <img
-        src="/images/weights.jpg"
-        alt="people working out"
-        width={400}
-        height={300}
-      />
+      <div id="weights">
+        <h1>Weights</h1>
+        <img
+          src="/images/weights.jpg"
+          alt="people working out"
+          width={400}
+          height={300}
+        />
 
-      <p>
-        Our facility includes a weight training area with several weight options.
-        Build lean muscle with weights and improve your core with weight training.
-      </p>
+        <p>
+          Our facility includes a weight training area with several weight
+          options. Build lean muscle with weights and improve your core with
+          weight training.
+        </p>
 
-      <ul>
-        <li>Dumbbells</li>
-        <li>Kettle bells</li>
-        <li>Barbells</li>
-      </ul>
-    </div>
+        <ul>
+          <li>Dumbbells</li>
+          <li>Kettle bells</li>
+          <li>Barbells</li>
+        </ul>
+      </div>
 
-    <div id="cardio">
+      <div id="cardio">
         <h1>Cardio</h1>
-        <img className="equip" src="/images/running.jpg" alt="Running" width={450} height={300} />
+        <img
+          className="equip"
+          src="/images/running.jpg"
+          alt="Running"
+          width={450}
+          height={300}
+        />
         <p>
-            Burn fat through cardio workouts. Expert recommend 150 minutes of cardio each 
-            week. We have several equipment choices for your workout.
+          Burn fat through cardio workouts. Expert recommend 150 minutes of
+          cardio each week. We have several equipment choices for your workout.
         </p>
         <ul>
-            <li>Treadmills</li>
-            <li>Elliptical Machines</li>
-            <li>Exercise Bikes</li>
+          <li>Treadmills</li>
+          <li>Elliptical Machines</li>
+          <li>Exercise Bikes</li>
         </ul>
-    </div>
+      </div>
 
-    <div id="training">
+      <div id="training">
         <h1>Personal Training</h1>
-        <img className="equip" src="/images/bench.jpg" alt="Personal Training" width={450} height={300} />
+        <img
+          className="equip"
+          src="/images/bench.jpg"
+          alt="Personal Training"
+          width={450}
+          height={300}
+        />
         <p>
-            Our certified personal trainers work with you to help you obtain your 
-            fitness goals and track your progress Personal training has many benefits.
+          Our certified personal trainers work with you to help you obtain your
+          fitness goals and track your progress Personal training has many
+          benefits.
         </p>
 
         <ul>
-            <li>Accountability</li>
-            <li>Personalized Program</li>
-            <li>Consistent Support and Motivation</li>
+          <li>Accountability</li>
+          <li>Personalized Program</li>
+          <li>Consistent Support and Motivation</li>
         </ul>
-    </div>
+      </div>
+
+      <div id="exercises">
+        <h1>Common Exercises</h1>
+        <p>
+          The following are common exercises that we encourage our clients to do
+          as part of their daily exercise routine.
+        </p>
+
+        <dl>
+          <dt>Burpee</dt>
+          <dd>
+            Burpees are a great, full body exercise to increase your strength
+            and endurance. Begin in a standing position, drop into a squat and
+            extend your hands forward, kick your feet back and then forward
+            again quickly, and then jump up from a squatted position.
+          </dd>
+          <dt>Plank</dt>
+          <dd>
+            Planks build your core strength. To perform a plank, get in a
+            push-up position and rest your forearms on the floor. Hold the
+            position as long as you can.{" "}
+          </dd>
+
+          <dt>Mountain Climber</dt>
+          <dd>
+            Mountain climbers are a good cardio exercise. Place your hands on
+            the floor in a push-up position, bring one knee up to your chest,
+            and then switch as quickly as you can (as though you are climbing a
+            mountain).
+          </dd>
+        </dl>
+        <p>
+          For more information about how to stay active, visit the
+          <a href="https://www.health.gov.za/contact-us/" target="_blank">&nbsp;
+           S.A Department of Health Services
+          </a>
+          .
+        </p>
+      </div>
     </>
   );
 }
