@@ -8,8 +8,6 @@ function AboutPage() {
         <img
           src="/images/weights.jpg"
           alt="people working out"
-          width={400}
-          height={300}
         />
 
         <p>
@@ -31,8 +29,6 @@ function AboutPage() {
           className="equip"
           src="/images/running.jpg"
           alt="Running"
-          width={450}
-          height={300}
         />
         <p>
           Burn fat through cardio workouts. Expert recommend 150 minutes of
@@ -51,8 +47,6 @@ function AboutPage() {
           className="equip"
           src="/images/bench.jpg"
           alt="Personal Training"
-          width={450}
-          height={300}
         />
         <p>
           Our certified personal trainers work with you to help you obtain your
@@ -98,8 +92,8 @@ function AboutPage() {
           </dd>
         </dl>
         <p>
-          For more information about how to stay active, visit the
-          <a href="https://www.health.gov.za/contact-us/" target="_blank">&nbsp;
+          For more information about how to stay active, visit the&nbsp;
+          <a href="https://www.health.gov.za/contact-us/" target="_blank" className="external-link">
            S.A Department of Health Services
           </a>
           .
