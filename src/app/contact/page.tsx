@@ -4,10 +4,10 @@ function ContactPage() {
   return (
     <div id="contact">
       <h2>Ready to get started? Contact us today</h2>
-      <h4>Call us: (+27) 311-9608</h4>
+      <h4 className="tel-link"><a href="tel:3119608">(+27) 311-9608</a></h4>
       <h4>
         Email us:&nbsp;
-        <a href="mailto:forwardfitnessspirit@club.net">
+        <a href="mailto:forwardfitnessspirit@club.net" className="contact-email-link">
           forwardfitnessspirit@club.net
         </a>
       </h4>

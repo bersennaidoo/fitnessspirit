@@ -8,6 +8,7 @@ function AboutPage() {
         <img
           src="/images/weights.jpg"
           alt="people working out"
+          className="round"
         />
 
         <p>
@@ -16,7 +17,7 @@ function AboutPage() {
           weight training.
         </p>
 
-        <ul>
+        <ul className="tablet-desktop">
           <li>Dumbbells</li>
           <li>Kettle bells</li>
           <li>Barbells</li>
@@ -26,7 +27,7 @@ function AboutPage() {
       <div id="cardio">
         <h1>Cardio</h1>
         <img
-          className="equip"
+          className="round"
           src="/images/running.jpg"
           alt="Running"
         />
@@ -34,7 +35,7 @@ function AboutPage() {
           Burn fat through cardio workouts. Expert recommend 150 minutes of
           cardio each week. We have several equipment choices for your workout.
         </p>
-        <ul>
+        <ul className="tablet-desktop">
           <li>Treadmills</li>
           <li>Elliptical Machines</li>
           <li>Exercise Bikes</li>
@@ -54,14 +55,14 @@ function AboutPage() {
           benefits.
         </p>
 
-        <ul>
+        <ul className="tablet-desktop">
           <li>Accountability</li>
           <li>Personalized Program</li>
           <li>Consistent Support and Motivation</li>
         </ul>
       </div>
 
-      <div id="exercises">
+      <div id="exercises" className="tablet-desktop">
         <h1>Common Exercises</h1>
         <p>
           The following are common exercises that we encourage our clients to do
