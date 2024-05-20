@@ -1,9 +1,17 @@
-body, header, nav, main, footer, h1, div, img, ul {
+/*
+Author: Bersen Naidoo
+Date: 20/05/2024
+File: global.css
+*/
+
+/* CSS Reset */
+body, header, nav, footer, h1, div, img {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
+/* style rules for body and images */
 body {
     background-color: #000; 
 }
@@ -13,79 +21,51 @@ img {
     display: block;
 }
 
+/* style rules for header */
 header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-color: #000;
-    height: 190px;
+    width: 25%;
+    float: left;
 }
 
-header img {
-    margin: 7em auto;
+/* My Config */
+header a img {
+    margin: 3em 3em;
 }
 
+/* style rules for navigation */
 nav {
-    padding: 1%;
-    margin-bottom: 1%;
+    width: 70%;
+    float: right;
+    margin: 5em 3em 0 0;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
-    text-align: center;
+    text-align: right;
 }
 
 nav li {
-    font-size: 1.5em;
+    display: inline-block;
+    font-size: 1.50em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-top: 1px solid #fff;
-}
-
-nav li:first-child {
-    border-top: none;
+    font-weight: bold;
 }
 
 nav li a {
     display: block;
     color: #fff;
+    text-align: center;
     padding: 0.5em 1em;
     text-decoration: none;
 }
 
-.mobile {
-    display: block;
-}
-
-.tablet.desktop {
-    display: none;
-}
-
+/* style rules for main content */
 main {
+    clear: left;
     background-color: #fff;
     padding: 2%;
-    font-size: 1.15em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.tel-link {
-    background-color: #404040;
-    padding: 2%;
-    margin: 0 auto;
-    width: 80%;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.tel-link a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.5em;
-    display: block;
-}
-
-.hours {
-    margin-left: 10%;
+    font-size: 1.25em;
 }
 
 .action {
@@ -95,61 +75,12 @@ main {
 }
 
 #weights, #cardio, #training {
+    width: 29%;
+    float: left;
     margin: 0 2%;
 }
 
-.round {
-    border-radius: 8px;
-}
-
-.external-link {
-    color: #666600;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-#contact .contact-email-link {
-    color: #666600;
-    text-decoration: none;
-}
-
-.map {
-    border: 2px solid #000;
-    width: 95%;
-    height: 50%;
-}
-
-#contact a {
-    color: #666600;
-    text-decoration: none;
-}
-
-.map {
-    border: 8px solid #000;
-}
-
-footer p {
-    font-size: 0.75em;
-    text-align: center;
-    color: #fff;
-    padding: 0 1em;
-}
-
-footer p a {
-    color: #fff;
-    text-decoration: none;
-}
-
-h1 {
-    text-align: center;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-/*#exercises {
+#exercises {
     clear: left;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
@@ -163,6 +94,36 @@ h1 {
 
 #exercises dd {
     padding: 0.5% 1% 2% 0;
-}*/
+}
 
+.external-link {
+    color: #666600;
+    font-weight: bold;
+    text-decoration: none;
+}
 
+#contact {
+    text-align: center;
+}
+
+#contact a {
+    color: #666600;
+    text-decoration: none;
+}
+
+.map {
+    border: 8px solid #000;
+}
+
+/* style rules for footer */
+footer p {
+    font-size: .75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}

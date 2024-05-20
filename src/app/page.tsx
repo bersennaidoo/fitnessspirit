@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <>
+    <main>
       <div className="mobile">
         <p>
           Welcome to Fitness Spirit Club. Our mission is to help our clients
@@ -23,7 +23,10 @@ export default function Home() {
         </ul>
       </div>
       <div id="hero" className="tablet-desktop">
-        <img src="/images/relax.jpg" alt="left arm extended" />
+        <img
+          src="/images/maletreadmill.jpg"
+          alt="left arm extended"
+        />
       </div>
       <div className="tablet-desktop">
         <p>
@@ -42,6 +45,6 @@ export default function Home() {
           <span className="action">start your free trial!</span>
         </p>
       </div>
-    </>
+    </main>
   );
 }

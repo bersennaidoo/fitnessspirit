@@ -6,8 +6,8 @@ const Header = () => {
     <header>
       <a href="/">
         <img
-          src="/images/logo.svg"
-          alt="Fitness Spirit Logo"
+          src="/images/small-logo.jpg"
+          alt="Fitness Spirit Club Logo"
         />
       </a>
     </header>

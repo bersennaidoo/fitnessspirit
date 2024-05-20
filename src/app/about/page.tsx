@@ -2,11 +2,11 @@ import React from "react";
 
 function AboutPage() {
   return (
-    <>
+    <main>
       <div id="weights">
         <h1>Weights</h1>
         <img
-          src="/images/weights.jpg"
+          src="/images/femaleweight.jpg"
           alt="people working out"
           className="round"
         />
@@ -100,7 +100,7 @@ function AboutPage() {
           .
         </p>
       </div>
-    </>
+    </main>
   );
 }
 
