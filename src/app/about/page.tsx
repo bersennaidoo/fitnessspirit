@@ -45,7 +45,7 @@ function AboutPage() {
       <div id="training">
         <h1>Personal Training</h1>
         <img
-          className="equip"
+          className="round"
           src="/images/bench.jpg"
           alt="Personal Training"
         />
